@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    text-align: center;
+    background-color: aquamarine;
+    position: sticky;
+    height: 40px;
+    font-size: 25px;
+    padding-top: 10px;
+    
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(74, 165, 134);
+}
+
+body {
+    background-color: beige;
+}
+
+.sub {
+    display: none;
+}
+
+#link:hover .sub {
+    display: block;
+}
+
+#one, #two, #three{
+    position: absolute;
+    left: 22.4cm;
+    width: 2.1cm;
+    font-size: 20px;
+}
+
+#two {
+    border-top: 0px;
+    border-style: solid;
+    border-color: rgb(74, 165, 134);
+    padding-top: 2.7cm;
+    background-color: rgb(137, 240, 206);
+}
+
+#one {
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: rgb(74, 165, 134);
+    padding-top: 0.5cm;
+    background-color: rgb(122, 229, 193);
+}
+
+
+#para {
+    width: 45%;
+    position: absolute;
+    left: 19cm;
+    top: 8cm;
+}
+
+#bullets {
+    width: 45%;
+    position: absolute;
+    left: 18.5cm;
+    top: 14cm;
+}
+
+h2 {
+    width: 40%;
+    position: absolute;
+    left: 19cm;
+    top: 5cm;
+    font-size: 30px;
+}
+
+p, li {
+    font-size: 25px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(74, 165, 134);
+    background-color: rgb(74, 165, 134);
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(74, 165, 134);
+    background-color: rgb(74, 165, 134);
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(74, 165, 134);
+    background-color: rgb(74, 165, 134);
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(74, 165, 134);
+    background-color: rgb(74, 165, 134);
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    top: 115vh;
+    left: 42vw;
+}
+
+img {
+    position: absolute;
+    width: 500px;
+    left: 1.5cm;
+    top: 4.5cm;
+    height: 700px;
+}
